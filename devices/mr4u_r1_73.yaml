@@ -55,8 +55,6 @@ packages:
   # --- USB mode ---
   hal_usb_mode:       !include ../packages/usb/usb_device_host_switch.yaml
   hal_poe_to_usb:     !include ../packages/usb/poe_to_usb_power.yaml
-  hal_usbc_cc_adc:    !include ../packages/usb/usbc_cc_adc.yaml
-
 
   ############################################################
   #  3) Logic layer (behavior, scripts, automations)
